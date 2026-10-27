@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mediatag",
+  "version": "${version}",
+  "name": "Media Tag",
+  "description": "Shows the media camera icon next to your name in third person.",
+  "authors": ["me"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mediatag.MediaTagMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
