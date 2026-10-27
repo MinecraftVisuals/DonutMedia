@@ -25,11 +25,11 @@ public class MediaTagMod implements ClientModInitializer {
     private static final int TEX_H = 72;
 
     // how big the icon is drawn, in "text pixels" (a normal nametag line is 9 tall)
-    private static final int ICON_W = 13;
-    private static final int ICON_H = 9;
+    private static final int ICON_W = 10;
+    private static final int ICON_H = 7;
 
-    private static final int GAP = 3;      // space between icon and the start of the name
-    private static final int ICON_Y = 0;   // nudge icon up (-) or down (+) if it looks off
+    private static final int GAP = 1;      // space between icon and the start of the name
+    private static final int ICON_Y = 1;   // nudge icon up (-) or down (+) if it looks off
 
     @Override
     public void onInitializeClient() {
